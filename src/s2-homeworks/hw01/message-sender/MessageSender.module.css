@@ -1,0 +1,37 @@
+.sendForm {
+    display: flex;
+;
+}
+
+.textarea {
+    display: inline-block;
+    border: 1px solid ;
+    background: rgba(245, 247, 251, 1);
+    border-radius: 10px;
+    resize: none;
+    width: 90%;
+    min-height: 40px;
+    padding: 10px;
+
+}
+
+.button {
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgba(0, 102, 204, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+.button:hover {
+
+}
+.button:active {
+
+}
