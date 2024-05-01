@@ -1,16 +1,29 @@
 .button {
+    background: rgba(0, 102, 204, 1);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: none;
+
+
 }
 
 .disabled {
+
 }
 
 .secondary {
+    padding: 3px 10px;
+   border: 1px solid cornflowerblue;
+    color: cornflowerblue;
+    background: white;
 }
 
 .default {
 }
 
 .red {
+    background-color: red;
 }
 
 .default:hover {
@@ -33,4 +46,6 @@
 }
 
 .button:disabled {
+    background-color: lightgray;
+    color: darkgray;
 }
